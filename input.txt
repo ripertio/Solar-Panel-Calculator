@@ -1,0 +1,14 @@
+# The solar panel calculator provides detailed information, helping to find the perfect solar panel size for your house
+# Input Values required to calculate
+location_lat: 47.26667          #   location (latitude)
+location_lon: 11.38333          #   location (longitute)
+sun_hours: 6                    #   average daily sun hours of the location
+roof_area: 20                   #   Available roof area, in m^2
+efficiency: 0.9                 #   For further information see https://www.photovoltaik-web.de/photovoltaik/dacheignung/dachausrichtung
+offset_pv_production: 0.8       #   The proportion of how much energy you want to produce even on days with few hours of sunshine e.g. in the winter
+output_kwp_per_m2: 0.34         #   Peak performance of the (kilo watt peak) of the solar panels
+eco_electricity: False          #   Electricity mix purchased to date (eco True/False),
+energy_consumption_year:  3000  #   energy consumption per year, in kwH
+energy_cost_kwH: 0.27           #   electricity costs per kwH
+available_capital: 2000         #   available capital ,
+credit_interest_rate: 0.1       #   possible loan interest rate.
