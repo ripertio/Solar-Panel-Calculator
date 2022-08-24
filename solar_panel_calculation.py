@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt  # needed if you want to plot the comparison of 
 #########################################################################################
 # Reading input file and creating a dictionary with the required input values ###########
 #########################################################################################
-name = "input.txt"
+name = "Solar-Panel-Calculator/input.txt"
 value_inputs = open(name)
 list_input_values = {}
 for line in value_inputs:
